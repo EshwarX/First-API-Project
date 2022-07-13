@@ -1,0 +1,74 @@
+/*
+  Name: Xavier Huang
+  Date: May 1st, 2022
+  Section: CSE 154 AE
+  This is the styles.css page for CP3, it defines the basic style of the
+  webpage, including a interactive button, the font of the webpage, and
+  the color and background.
+*/
+
+body {
+  line-height: 1;
+  color: #212931;
+  text-align: center;
+  background-image: url("img/background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Source Sans Pro", "Helvetica", sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin: 0 0 2rem 0;
+}
+
+h2 {
+  font-size: 1.75rem;
+  line-height: 1.3;
+  text-transform: uppercase;
+  margin: 0 0 1.5rem 0;
+}
+
+button {
+  color: #9b00f5;
+  transition: 0.25s;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  background: none;
+}
+
+button:hover {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.hidden {
+  display: none;
+}
+
+div {
+  border: 2px black solid;
+  padding: 10px;
+  margin-top: 15px;
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: rgb(250, 249, 215);
+}
+
+blockquote {
+  font-family: 'Ephesis', cursive;
+  font-size: large;
+  font-weight: bold;
+  text-align: right;
+}
+
+span {
+  font-size: 16px;
+  text-decoration: underline;
+}

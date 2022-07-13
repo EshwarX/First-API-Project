@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+  Name: Xavier Huang
+  Date: May 1st, 2022
+  Section: CSE 154 AE
+  This is the index.html page for a site which generates random
+  activities based on different search categories. It uses an API
+  from the site https://www.boreapi.com.
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Ephesis&display=swap" rel="stylesheet">
+    <title>Creative Project 3</title>
+  </head>
+  <body>
+    <blockquote>
+      <p>Carpe Diem</p>
+      <footer>— Horace</footer>
+    </blockquote>
+    <h1>What To Do</h1>
+    <section>
+      <h2>Get A Random Activity!</h2>
+      <span>This site uses API from https://www.boredapi.com</span>
+      <h3> Search By:</h3>
+      <p>
+        <label><input type="radio" name="attri" value="none" checked> none</label>
+        <label><input type="radio" name="attri" value="key"> key</label>
+        <label><input type="radio" name="attri" value="type"> category</label>
+        <label><input type="radio" name="attri" value="participants"> participants</label>
+        <label><input type="radio" name="attri" value="price"> price</label>
+        <label><input type="radio" name="attri" value="accessbility"> accessbility</label>
+      </p>
+      <p id="input-field">Input search value here:<input type="text" id="input-id"></p>
+      <button id="random-activity">generate</button>
+      <div id="loading-page" class="hidden">Loading...</div>
+      <div id="random-generate" class="hidden"></div>
+    </section>
+  </body>
+</html>
